@@ -1,0 +1,10 @@
+Jak dostac slotbinds.jar bez instalowania czegokolwiek:
+
+1. Zaloz darmowe konto na github.com i kliknij "New repository" (nazwa dowolna, np. slotbinds).
+2. Na stronie repozytorium kliknij "uploading an existing file".
+3. Rozpakuj slotbinds.zip i PRZECIAGNIJ do okna WSZYSTKO z folderu slotbinds
+   (razem z folderami src oraz .github). Kliknij "Commit changes".
+4. Wejdz w zakladke "Actions" - po 2-5 minutach build sie skonczy (zielony znaczek).
+5. Kliknij ten build, na dole w sekcji "Artifacts" pobierz "slotbinds-jar".
+6. Rozpakuj - w srodku jest slotbinds-1.0.0.jar. Wrzuc do .minecraft/mods
+   (potrzebujesz Minecrafta 1.21.4 z Fabric Loader i Fabric API).

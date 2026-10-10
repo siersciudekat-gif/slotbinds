@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "slotbinds",
+  "version": "1.0.0",
+  "name": "SlotBinds",
+  "description": "Widget HUD z bindami slotów 1-9. F12 otwiera menu pozycji i rozmiaru.",
+  "environment": "client",
+  "entrypoints": { "client": ["pl.slotbinds.SlotBindsMod"] },
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "~1.21.4", "fabric-api": "*" }
+}
